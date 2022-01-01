@@ -26,6 +26,6 @@ namespace ADProject.Controllers
 
             return View();
         }
-        public ActionResult RegisterNewAsset() { return View(); }
+        public ActionResult HomePage() { return View(); }
     }
 }
