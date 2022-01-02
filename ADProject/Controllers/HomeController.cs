@@ -34,5 +34,10 @@ namespace ADProject.Controllers
         {
             return View();
         }
+
+        public ActionResult AreaLeaderHP()
+        {
+            return View();
+        }
     }
 }
