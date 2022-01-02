@@ -26,6 +26,13 @@ namespace ADProject.Controllers
 
             return View();
         }
-        public ActionResult HomePage() { return View(); }
+        public ActionResult HomePage() { 
+            return View();
+        }
+
+        public ActionResult ApprovalPage()
+        {
+            return View();
+        }
     }
 }
