@@ -9,6 +9,16 @@
     <title>AreaLeaderHomePage</title>
 
     <style>
+        fieldset {
+            margin-top: 20px;
+            height: 500px;
+            width: 100%;
+            border: 1px solid gray;
+            overflow: auto;
+            background-color:#f5efff; 
+            color: black; 
+            padding: 20px; 
+        }
 
         .table, th, td {
             border: 1px solid black;
@@ -35,13 +45,13 @@
     </style>
 </head>
 <body>
-    <div>
+    <div >
 
         <fieldset>
 
+            <legend>Welcome</legend>
+            <div>
 
-            <div style="background-color:#f5efff; color: black; padding: 20px; margin-top:20px;">
-                <legend>Welcome</legend>
 
                 <div>
                     <!--name of asset-->
@@ -50,14 +60,6 @@
                     <input type="text" class="form-control" placeholder="Asset Name" />
 
 
-                    <!--discreption "inner styling & separate div"-->
-
-                    <div style="padding-left:500px;margin-top:-80px; ">
-
-                        <label for="disabledTextInput" class="form-label">Descreption</label>
-                        <input type="text" class="form-control" />
-
-                    </div>
 
                     <!--amount of asset-->
 
@@ -74,16 +76,26 @@
                     <br />
                     <br />
 
-                    <!--local point-->
+                    <!--focal point-->
 
-                    <label for="disabledTextInput" class="form-label">Assign Local Point </label>
+                    <label for="disabledTextInput" class="form-label">Assign focal Point </label>
                     <input type="text" class="form-control" />
+
+                </div>
+
+
+                <!--discreption "inner styling & separate div"-->
+
+                <div>
+
+                    <label for="disabledTextInput" class="form-label">Descreption</label>
+                    <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
 
                 </div>
 
                 <!--employee's table "inner styling & separate div"-->
 
-                <div style="margin: -220px 40px 60px 480px;">
+                <div style="margin:40px 0 0 0">
                     <table>
 
                         <!-- First row -->
